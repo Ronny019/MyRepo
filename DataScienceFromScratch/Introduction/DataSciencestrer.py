@@ -1,7 +1,7 @@
 from __future__ import division # integer division is lame
 from collections import Counter
 from collections import defaultdict
-#introducing comments
+
 users = [
 { "id": 0, "name": "Hero" },
 { "id": 1, "name": "Dunn" },
