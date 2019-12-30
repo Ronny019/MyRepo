@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>08b59e7a-07e4-443e-afac-fa296127dbe2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>barchart.py</StartupFile>
+    <StartupFile>linechart.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="barchart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linechart.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="matplotlibexample.py">
