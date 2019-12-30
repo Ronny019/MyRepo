@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>08b59e7a-07e4-443e-afac-fa296127dbe2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>matplotlibexample.py</StartupFile>
+    <StartupFile>barchart.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
