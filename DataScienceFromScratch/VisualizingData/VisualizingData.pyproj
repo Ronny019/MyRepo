@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="barchart.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="matplotlibexample.py">
       <SubType>Code</SubType>
     </Compile>
