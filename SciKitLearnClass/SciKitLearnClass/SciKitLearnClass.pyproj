@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>086d2257-4e7d-41cd-9e63-85868261f02a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{8B0147FC-7A0C-481F-99C4-C90CCB52692E};{888888A0-9F3D-457C-B088-3A5042F75D52}</ProjectTypeGuids>
+    <StartupFile>BestModelParameters.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <CommandLineArguments>--input_dir . --output_dir .</CommandLineArguments>
+    <Name>SciKitLearnClass</Name>
+    <RootNamespace>SciKitLearnClass</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BestModelParameters.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CrossValidation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IrisDataSet.py" />
+    <Compile Include="ComparingMLModels.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pandas_Seaborn.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TrainTestSplit.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
