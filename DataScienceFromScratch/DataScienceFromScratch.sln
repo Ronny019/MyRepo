@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Introduction", "Introductio
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "VisualizingData", "VisualizingData\VisualizingData.pyproj", "{08B59E7A-07E4-443E-AFAC-FA296127DBE2}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LinearAlgebra", "LinearAlgebra\LinearAlgebra.pyproj", "{049AB6F0-0AED-4178-BC2B-0451CA9B8ADD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{962D18D8-85ED-4597-BA2B-75576A663B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08B59E7A-07E4-443E-AFAC-FA296127DBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08B59E7A-07E4-443E-AFAC-FA296127DBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049AB6F0-0AED-4178-BC2B-0451CA9B8ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049AB6F0-0AED-4178-BC2B-0451CA9B8ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
