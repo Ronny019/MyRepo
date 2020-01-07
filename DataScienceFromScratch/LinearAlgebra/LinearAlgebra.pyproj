@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>049ab6f0-0aed-4178-bc2b-0451ca9b8add</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Vectors.py</StartupFile>
+    <StartupFile>Matrices.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Matrices.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Vectors.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
