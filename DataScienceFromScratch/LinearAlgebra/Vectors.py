@@ -52,3 +52,26 @@ def dot(v, w):
     for v_i, w_i in zip(v, w))
 
 print(dot(lis1,lis2))
+
+def sum_of_squares(v):
+    """v_1 * v_1 + ... + v_n * v_n"""
+    return dot(v, v)
+
+import math
+
+def magnitude(v):
+    return math.sqrt(sum_of_squares(v)) # math.sqrt is square root function
+
+def squared_distance(v, w):
+    """(v_1 - w_1) ** 2 + ... + (v_n - w_n) ** 2"""
+    return sum_of_squares(vector_subtract(v, w))
+
+def distance(v, w):
+    return math.sqrt(squared_distance(v, w))
+
+def distance2(v, w):
+    return magnitude(vector_subtract(v, w))
+
+print(distance(lis1,lis2))
+
+print(distance2(lis1,lis2))
