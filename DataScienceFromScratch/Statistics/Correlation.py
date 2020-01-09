@@ -15,7 +15,7 @@ def correlation(x, y):
 
 correlation(num_friends, daily_minutes) # 0.25
 
-#Code for removing outlier and then calculating correlation. Here we removw the oulier 100 who only spends 1 min per day on DataSciencester
+#Code for removing outlier and then calculating correlation. Here we remove the outlier 100 who only spends 1 min per day on DataSciencester
 outlier = num_friends.index(100) # index of outlier
 num_friends_good = [x
 for i, x in enumerate(num_friends)
