@@ -46,3 +46,8 @@ def inverse_normal_cdf(p, mu=0, sigma=1, tolerance=0.00001):
         else:
             break
     return mid_z
+
+print(inverse_normal_cdf(0.2))
+print(inverse_normal_cdf(0.9))
+print(inverse_normal_cdf(0.2,0,2))
+print(inverse_normal_cdf(0.9,0,0.5))
