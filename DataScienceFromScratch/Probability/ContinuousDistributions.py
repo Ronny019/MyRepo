@@ -1,5 +1,4 @@
-import math
-from matplotlib import pyplot as plt
+
 def uniform_pdf(x):
     return 1 if x >= 0 and x < 1 else 0
 
