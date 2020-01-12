@@ -13,6 +13,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Statistics", "Statistics\St
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Probability", "Probability\Probability.pyproj", "{5BCF28E4-EE42-4963-AD9D-88683020B7C4}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HypothesisAndInference", "HypothesisAndInference\HypothesisAndInference.pyproj", "{BF7D884E-F986-45E7-A0C6-0D1A0F61576E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,8 @@ Global
 		{515E18CB-C3DC-4D47-9163-F5AAAB0DFCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BCF28E4-EE42-4963-AD9D-88683020B7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5BCF28E4-EE42-4963-AD9D-88683020B7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7D884E-F986-45E7-A0C6-0D1A0F61576E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7D884E-F986-45E7-A0C6-0D1A0F61576E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
