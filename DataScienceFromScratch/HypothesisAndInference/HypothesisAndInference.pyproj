@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bf7d884e-f986-45e7-a0c6-0d1a0f61576e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ConfidenceIntervals.py</StartupFile>
+    <StartupFile>PHacking.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ConfidenceIntervals.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PHacking.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="StatisticalHypothesisTesting.py" />
