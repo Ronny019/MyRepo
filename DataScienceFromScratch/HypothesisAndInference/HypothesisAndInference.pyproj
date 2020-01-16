@@ -24,6 +24,9 @@
     <Compile Include="AbyBTest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="BayesianInference.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ConfidenceIntervals.py">
       <SubType>Code</SubType>
     </Compile>
