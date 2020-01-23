@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>91156103-ba1e-4151-beb3-447e4974e47d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EstimatingTheGradient.py</StartupFile>
+    <StartupFile>UsingTheGradient.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="EstimatingTheGradient.py" />
+    <Compile Include="UsingTheGradient.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LinearAlgebra\LinearAlgebra.pyproj">
+      <Name>LinearAlgebra</Name>
+      <Project>{049ab6f0-0aed-4178-bc2b-0451ca9b8add}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
