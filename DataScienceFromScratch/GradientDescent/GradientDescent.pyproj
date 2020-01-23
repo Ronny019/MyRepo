@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>91156103-ba1e-4151-beb3-447e4974e47d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>UsingTheGradient.py</StartupFile>
+    <StartupFile>ChoosingTheRightStep.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ChoosingTheRightStep.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="EstimatingTheGradient.py" />
     <Compile Include="UsingTheGradient.py">
       <SubType>Code</SubType>
