@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="EstimatingTheGradient.py" />
+    <Compile Include="StochasticGradientDescent.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="UsingTheGradient.py">
       <SubType>Code</SubType>
     </Compile>
