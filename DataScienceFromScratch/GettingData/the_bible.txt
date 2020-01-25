@@ -1,3 +1,8 @@
+command
+
+type "C:\Users\Mainak\Source\Repos\Github\MyRepo\DataScienceFromScratch\GettingData\the_bible.txt" | ./python "C:\Users\Mainak\Source\Repos\Github\MyRepo\DataScienceFromScratch\GettingData\most_common_words.py" 10
+
+
 RETHINKING WHAT A RESUME
 IS
 Yeah, I think I know what you want. You want me to get right to it. Tell you how to

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e7e3ec34-fa01-410c-8872-a4754fa9e8b7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>egrep.py</StartupFile>
+    <StartupFile>ReadingFiles.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="most_common_words.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReadingFiles.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
