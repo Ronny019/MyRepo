@@ -1,0 +1,12 @@
+command for counting lines with numbers
+type "C:\Users\Mainak\Source\Repos\Github\MyRepo\DataScienceFromScratch\GettingData\SomeFile.txt"| ./python "C:\Users\Mainak\Source\Repos\Github\MyRepo\DataScienceFromScratch\GettingData\egrep.py" "[0-9]"|./python "C:\Users\Mainak\Source\Repos\Github\MyRepo\DataScienceFromScratch\GettingData\line_count.py"
+
+99
+asas
+665 
+as66656
+sasas
+626526
+656556
+asas66565
+2232

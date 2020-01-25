@@ -17,6 +17,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HypothesisAndInference", "H
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GradientDescent", "GradientDescent\GradientDescent.pyproj", "{91156103-BA1E-4151-BEB3-447E4974E47D}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GettingData", "GettingData\GettingData.pyproj", "{E7E3EC34-FA01-410C-8872-A4754FA9E8B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,8 @@ Global
 		{BF7D884E-F986-45E7-A0C6-0D1A0F61576E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91156103-BA1E-4151-BEB3-447E4974E47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{91156103-BA1E-4151-BEB3-447E4974E47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E3EC34-FA01-410C-8872-A4754FA9E8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E3EC34-FA01-410C-8872-A4754FA9E8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
