@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e7e3ec34-fa01-410c-8872-a4754fa9e8b7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ScrapingTheWebMyExample.py</StartupFile>
+    <StartupFile>UsingAPIs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,6 +35,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ScrapingTheWebMyExample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UsingAPIs.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
