@@ -51,3 +51,4 @@ print(inverse_normal_cdf(0.2))
 print(inverse_normal_cdf(0.9))
 print(inverse_normal_cdf(0.2,0,2))
 print(inverse_normal_cdf(0.9,0,0.5))
+print('\n');
