@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d990aa29-e894-4c62-826e-f95fb0ba3165</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ExploringYourData.py</StartupFile>
+    <StartupFile>CleaningAndMunging.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CleaningAndMunging.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ExploringYourData.py" />
   </ItemGroup>
   <ItemGroup>
