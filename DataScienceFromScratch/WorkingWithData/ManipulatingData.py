@@ -51,3 +51,39 @@ max_price_by_symbol = group_by(picker("symbol"),
                                       data,
                                       lambda rows: max(pluck("closing_price", rows)))
 print(max_price_by_symbol)
+
+
+def percent_price_change(yesterday, today):
+    return today["closing_price"] / yesterday["closing_price"] - 1
+
+def day_over_day_changes(grouped_rows):
+    # sort the rows by date
+    ordered = sorted(grouped_rows, key=picker("date"))
+    # zip with an offset to get pairs of consecutive days
+    return [{ "symbol" : today["symbol"],
+            "date" : today["date"],
+            "change" : percent_price_change(yesterday, today) }
+            for yesterday, today in zip(ordered, ordered[1:])]
+
+
+# key is symbol, value is list of "change" dicts
+changes_by_symbol = group_by(picker("symbol"), data, day_over_day_changes)
+
+# collect all "change" dicts into one big list
+all_changes = [change
+                for changes in changes_by_symbol.values()
+                for change in changes]
+
+#max(all_changes, key=picker("change"))
+#min(all_changes, key=picker("change"))
+
+
+def combine_pct_changes(pct_change1, pct_change2):
+    return (1 + pct_change1) * (1 + pct_change2) - 1
+
+def overall_change(changes):
+    return reduce(combine_pct_changes, pluck("change", changes))
+
+overall_change_by_month = group_by(lambda row: row['date'].month,
+                                    all_changes,
+                                    overall_change)
