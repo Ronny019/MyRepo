@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d990aa29-e894-4c62-826e-f95fb0ba3165</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CleaningAndMunging.py</StartupFile>
+    <StartupFile>ManipulatingData.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ExploringYourData.py" />
+    <Compile Include="ManipulatingData.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LinearAlgebra\LinearAlgebra.pyproj">
