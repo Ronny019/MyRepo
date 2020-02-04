@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d990aa29-e894-4c62-826e-f95fb0ba3165</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ManipulatingData.py</StartupFile>
+    <StartupFile>Rescaling.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
     </Compile>
     <Compile Include="ExploringYourData.py" />
     <Compile Include="ManipulatingData.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rescaling.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
