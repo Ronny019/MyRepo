@@ -57,3 +57,34 @@ def first_principal_component_sgd(X):
                         [None for _ in X], # the fake "y"
                         guess)
     return direction(unscaled_maximizer)
+
+
+def project(v, w):
+    """return the projection of v onto the direction w"""
+    projection_length = vec.dot(v, w)
+    return vec.scalar_multiply(projection_length, w)
+
+def remove_projection_from_vector(v, w):
+    """projects v onto w and subtracts the result from v"""
+    return vec.vector_subtract(v, project(v, w))
+
+def remove_projection(X, w):
+    """for each row of X
+    projects the row onto w, and subtracts the result from the row"""
+    return [remove_projection_from_vector(x_i, w) for x_i in X]
+
+
+def principal_component_analysis(X, num_components):
+    components = []
+    for _ in range(num_components):
+        component = first_principal_component(X)
+        components.append(component)
+        X = remove_projection(X, component)
+    return components
+
+
+def transform_vector(v, components):
+    return [dot(v, w) for w in components]
+
+def transform(X, components):
+    return [transform_vector(x_i, components) for x_i in X]
