@@ -21,3 +21,7 @@ def recall(tp, fp, fn, tn):
 print(recall(70, 4930, 13930, 981070)) # 0.005
 
 
+def f1_score(tp, fp, fn, tn):
+    p = precision(tp, fp, fn, tn)
+    r = recall(tp, fp, fn, tn)
+    return 2 * p * r / (p + r)

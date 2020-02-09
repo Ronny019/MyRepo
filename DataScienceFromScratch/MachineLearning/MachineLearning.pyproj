@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>778d2829-f894-45b8-bb2a-c0942cdb9e65</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>OverfittingAndUnderfitting.py</StartupFile>
+    <StartupFile>Correctness.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
