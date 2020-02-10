@@ -23,6 +23,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WorkingWithData", "WorkingW
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MachineLearning", "MachineLearning\MachineLearning.pyproj", "{778D2829-F894-45B8-BB2A-C0942CDB9E65}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "K_NearestNeighbours", "K_NearestNeighbours\K_NearestNeighbours.pyproj", "{918B9B4C-5276-4B44-A693-223147895098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,8 @@ Global
 		{D990AA29-E894-4C62-826E-F95FB0BA3165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{778D2829-F894-45B8-BB2A-C0942CDB9E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{778D2829-F894-45B8-BB2A-C0942CDB9E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918B9B4C-5276-4B44-A693-223147895098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918B9B4C-5276-4B44-A693-223147895098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
