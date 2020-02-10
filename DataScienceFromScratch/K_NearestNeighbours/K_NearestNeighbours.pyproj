@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>918b9b4c-5276-4b44-a693-223147895098</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TheModel.py</StartupFile>
+    <StartupFile>Example_FavouriteLanguages.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Example_FavouriteLanguages.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TheModel.py" />
   </ItemGroup>
   <ItemGroup>

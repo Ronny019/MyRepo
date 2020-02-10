@@ -24,8 +24,10 @@ def knn_classify(k, labeled_points, new_point):
     """each labeled point should be a pair (point, label)"""
     # order the labeled points from nearest to farthest
     by_distance = sorted(labeled_points,
-                        key=lambda point, _: vec.distance(point, new_point))
+                         key=lambda point_label: vec.distance(point_label[0], new_point))
+
     # find the labels for the k closest
     k_nearest_labels = [label for _, label in by_distance[:k]]
+
     # and let them vote
     return majority_vote(k_nearest_labels)
