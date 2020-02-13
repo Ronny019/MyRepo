@@ -35,3 +35,22 @@ for k in [1, 3, 5, 7]:
         if (predicted_language == actual_language):
             num_correct += 1
     print (k, "neighbor[s]:", num_correct, "correct out of", len(cities))
+
+
+plots = { "Java" : ([], []), "Python" : ([], []), "R" : ([], []) }
+k = 1 # or 3, or 5, or…
+for longitude in range(-130, -60):
+    for latitude in range(20, 55):
+        predicted_language = model.knn_classify(k, cities, [longitude, latitude])
+        plots[predicted_language][0].append(longitude)
+        plots[predicted_language][1].append(latitude)
+
+
+for language, (x, y) in plots.items():
+    plt.scatter(x, y, color=colors[language], marker=markers[language],
+                label=language, zorder=10)
+#plot_state_borders(plt) # pretend we have a function that does this
+plt.legend(loc=0) # let matplotlib choose the location
+plt.axis([-130,-60,20,55]) # set the axes
+plt.title("Favorite Programming Languages")
+plt.show()
