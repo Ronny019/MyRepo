@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>918b9b4c-5276-4b44-a693-223147895098</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Example_FavouriteLanguages.py</StartupFile>
+    <StartupFile>TheCurseOfDimensionality.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Example_FavouriteLanguages.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TheCurseOfDimensionality.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TheModel.py" />
