@@ -1,5 +1,6 @@
 import re
 from collections import defaultdict
+import math
 def tokenize(message):
     message = message.lower() # convert to lowercase
     all_words = re.findall("[a-z0-9']+", message) # extract the words

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dd5c9c65-77c0-4fdc-b926-502363612fb1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Implementation.py</StartupFile>
+    <StartupFile>TestingOurModel.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Implementation.py" />
+    <Compile Include="TestingOurModel.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MachineLearning\MachineLearning.pyproj">
+      <Name>MachineLearning</Name>
+      <Project>{778d2829-f894-45b8-bb2a-c0942cdb9e65}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
