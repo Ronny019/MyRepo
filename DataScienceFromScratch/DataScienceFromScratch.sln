@@ -25,6 +25,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MachineLearning", "MachineL
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "K_NearestNeighbours", "K_NearestNeighbours\K_NearestNeighbours.pyproj", "{918B9B4C-5276-4B44-A693-223147895098}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaiveBayes", "NaiveBayes\NaiveBayes.pyproj", "{DD5C9C65-77C0-4FDC-B926-502363612FB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,8 @@ Global
 		{778D2829-F894-45B8-BB2A-C0942CDB9E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{918B9B4C-5276-4B44-A693-223147895098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{918B9B4C-5276-4B44-A693-223147895098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5C9C65-77C0-4FDC-B926-502363612FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5C9C65-77C0-4FDC-B926-502363612FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
