@@ -36,3 +36,34 @@ counts = Counter((is_spam, spam_probability > 0.5)
 for _, is_spam, spam_probability in classified)
 
 print(counts)
+
+
+# sort by spam_probability from smallest to largest
+classified.sort(key=lambda row: row[2])
+# the highest predicted spam probabilities among the non-spams
+spammiest_hams = list(filter(lambda row: not row[1], classified))[-5:]
+# the lowest predicted spam probabilities among the actual spams
+hammiest_spams = list(filter(lambda row: row[1], classified))[:5]
+
+print(spammiest_hams)
+print(hammiest_spams)
+
+print()
+
+def p_spam_given_word(word_prob):
+    """uses bayes's theorem to compute p(spam | message contains word)"""
+    # word_prob is one of the triplets produced by word_probabilities
+    word, prob_if_spam, prob_if_not_spam = word_prob
+    return prob_if_spam / (prob_if_spam + prob_if_not_spam)
+
+
+words = sorted(classifier.word_probs, key=p_spam_given_word)
+spammiest_words = words[-5:]
+hammiest_words = words[:5]
+
+print(spammiest_words)
+print(hammiest_words)
+
+
+def drop_final_s(word):
+    return re.sub("s$", "", word)
