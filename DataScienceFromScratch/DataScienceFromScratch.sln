@@ -27,6 +27,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "K_NearestNeighbours", "K_Ne
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaiveBayes", "NaiveBayes\NaiveBayes.pyproj", "{DD5C9C65-77C0-4FDC-B926-502363612FB1}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SimpleLinearRegression", "SimpleLinearRegression\SimpleLinearRegression.pyproj", "{FAB0D80E-DA6D-4A54-B4B8-23247274D769}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,8 @@ Global
 		{918B9B4C-5276-4B44-A693-223147895098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD5C9C65-77C0-4FDC-B926-502363612FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD5C9C65-77C0-4FDC-B926-502363612FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB0D80E-DA6D-4A54-B4B8-23247274D769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB0D80E-DA6D-4A54-B4B8-23247274D769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
