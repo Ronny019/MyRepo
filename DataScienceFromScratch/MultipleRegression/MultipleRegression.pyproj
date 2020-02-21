@@ -24,6 +24,9 @@
     <Compile Include="FittingTheModel.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GoodnessOfFit.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MultipleRegressionModel.py" />
   </ItemGroup>
   <ItemGroup>
