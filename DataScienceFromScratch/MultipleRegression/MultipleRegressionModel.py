@@ -16,3 +16,4 @@ def predict(x_i, beta):
 #49, # number of friends
 #4, # work hours per day
 #0] # doesn't have PhD
+

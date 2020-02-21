@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>202a8fbc-3589-4053-a197-a6d11fb17544</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MultipleRegressionModel.py</StartupFile>
+    <StartupFile>FittingTheModel.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,12 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FittingTheModel.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MultipleRegressionModel.py" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GradientDescent\GradientDescent.pyproj">
+      <Name>GradientDescent</Name>
+      <Project>{91156103-ba1e-4151-beb3-447e4974e47d}</Project>
+      <Private>True</Private>
+    </ProjectReference>
     <ProjectReference Include="..\LinearAlgebra\LinearAlgebra.pyproj">
       <Name>LinearAlgebra</Name>
       <Project>{049ab6f0-0aed-4178-bc2b-0451ca9b8add}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Statistics\Statistics.pyproj">
+      <Name>Statistics</Name>
+      <Project>{515e18cb-c3dc-4d47-9163-f5aaab0dfcd9}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
