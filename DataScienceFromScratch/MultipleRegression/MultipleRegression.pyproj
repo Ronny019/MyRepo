@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>202a8fbc-3589-4053-a197-a6d11fb17544</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Digression_TheBootstrap.py</StartupFile>
+    <StartupFile>StandardErrorsOfRegressionCoefficients.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MultipleRegressionModel.py" />
+    <Compile Include="StandardErrorsOfRegressionCoefficients.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GradientDescent\GradientDescent.pyproj">
@@ -41,6 +44,11 @@
     <ProjectReference Include="..\LinearAlgebra\LinearAlgebra.pyproj">
       <Name>LinearAlgebra</Name>
       <Project>{049ab6f0-0aed-4178-bc2b-0451ca9b8add}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Probability\Probability.pyproj">
+      <Name>Probability</Name>
+      <Project>{5bcf28e4-ee42-4963-ad9d-88683020b7c4}</Project>
       <Private>True</Private>
     </ProjectReference>
     <ProjectReference Include="..\Statistics\Statistics.pyproj">
