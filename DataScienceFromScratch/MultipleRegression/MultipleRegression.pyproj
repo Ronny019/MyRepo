@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>202a8fbc-3589-4053-a197-a6d11fb17544</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>StandardErrorsOfRegressionCoefficients.py</StartupFile>
+    <StartupFile>Regularization.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MultipleRegressionModel.py" />
+    <Compile Include="Regularization.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="StandardErrorsOfRegressionCoefficients.py">
       <SubType>Code</SubType>
     </Compile>
@@ -49,6 +52,11 @@
     <ProjectReference Include="..\Probability\Probability.pyproj">
       <Name>Probability</Name>
       <Project>{5bcf28e4-ee42-4963-ad9d-88683020b7c4}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleLinearRegression\SimpleLinearRegression.pyproj">
+      <Name>SimpleLinearRegression</Name>
+      <Project>{fab0d80e-da6d-4a54-b4b8-23247274d769}</Project>
       <Private>True</Private>
     </ProjectReference>
     <ProjectReference Include="..\Statistics\Statistics.pyproj">
