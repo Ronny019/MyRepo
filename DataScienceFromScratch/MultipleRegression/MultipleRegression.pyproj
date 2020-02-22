@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>202a8fbc-3589-4053-a197-a6d11fb17544</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FittingTheModel.py</StartupFile>
+    <StartupFile>Digression_TheBootstrap.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Digression_TheBootstrap.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FittingTheModel.py">
       <SubType>Code</SubType>
     </Compile>
