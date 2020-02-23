@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bc3f73f7-acfc-438a-9b8f-77297656260f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TheProblem.py</StartupFile>
+    <StartupFile>TheLogisticFunction.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="TheLogisticFunction.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TheProblem.py" />
   </ItemGroup>
   <ItemGroup>
