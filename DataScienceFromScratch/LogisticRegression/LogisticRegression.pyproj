@@ -1,0 +1,67 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bc3f73f7-acfc-438a-9b8f-77297656260f</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>TheProblem.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>LogisticRegression</Name>
+    <RootNamespace>LogisticRegression</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="TheProblem.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GradientDescent\GradientDescent.pyproj">
+      <Name>GradientDescent</Name>
+      <Project>{91156103-ba1e-4151-beb3-447e4974e47d}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\LinearAlgebra\LinearAlgebra.pyproj">
+      <Name>LinearAlgebra</Name>
+      <Project>{049ab6f0-0aed-4178-bc2b-0451ca9b8add}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\MultipleRegression\MultipleRegression.pyproj">
+      <Name>MultipleRegression</Name>
+      <Project>{202a8fbc-3589-4053-a197-a6d11fb17544}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleLinearRegression\SimpleLinearRegression.pyproj">
+      <Name>SimpleLinearRegression</Name>
+      <Project>{fab0d80e-da6d-4a54-b4b8-23247274d769}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Statistics\Statistics.pyproj">
+      <Name>Statistics</Name>
+      <Project>{515e18cb-c3dc-4d47-9163-f5aaab0dfcd9}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkingWithData\WorkingWithData.pyproj">
+      <Name>WorkingWithData</Name>
+      <Project>{d990aa29-e894-4c62-826e-f95fb0ba3165}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

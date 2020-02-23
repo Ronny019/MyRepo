@@ -20,7 +20,7 @@ def scale(data_matrix):
     num_rows, num_cols = mat.shape(data_matrix)
     means = [desc.mean(mat.get_column(data_matrix,j))
              for j in range(num_cols)]
-    stdevs = [desc.standard_deviation(get_column(data_matrix,j))
+    stdevs = [desc.standard_deviation(mat.get_column(data_matrix,j))
              for j in range(num_cols)]
     return means, stdevs
 
