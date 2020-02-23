@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bc3f73f7-acfc-438a-9b8f-77297656260f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ApplyingTheModel.py</StartupFile>
+    <StartupFile>GoodnessOfFitLogisticRegression.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ApplyingTheModel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GoodnessOfFitLogisticRegression.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TheLogisticFunction.py">
