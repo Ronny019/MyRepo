@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bc3f73f7-acfc-438a-9b8f-77297656260f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TheLogisticFunction.py</StartupFile>
+    <StartupFile>ApplyingTheModel.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ApplyingTheModel.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TheLogisticFunction.py">
       <SubType>Code</SubType>
     </Compile>
@@ -35,6 +38,11 @@
     <ProjectReference Include="..\LinearAlgebra\LinearAlgebra.pyproj">
       <Name>LinearAlgebra</Name>
       <Project>{049ab6f0-0aed-4178-bc2b-0451ca9b8add}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\MachineLearning\MachineLearning.pyproj">
+      <Name>MachineLearning</Name>
+      <Project>{778d2829-f894-45b8-bb2a-c0942cdb9e65}</Project>
       <Private>True</Private>
     </ProjectReference>
     <ProjectReference Include="..\MultipleRegression\MultipleRegression.pyproj">
