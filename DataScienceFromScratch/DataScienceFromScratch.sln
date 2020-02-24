@@ -33,6 +33,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MultipleRegression", "Multi
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LogisticRegression", "LogisticRegression\LogisticRegression.pyproj", "{BC3F73F7-ACFC-438A-9B8F-77297656260F}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DecisionTrees", "DecisionTrees\DecisionTrees.pyproj", "{9B1DE37C-3DDF-4AC6-888E-C3227A1F2972}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,8 @@ Global
 		{202A8FBC-3589-4053-A197-A6D11FB17544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3F73F7-ACFC-438A-9B8F-77297656260F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC3F73F7-ACFC-438A-9B8F-77297656260F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1DE37C-3DDF-4AC6-888E-C3227A1F2972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1DE37C-3DDF-4AC6-888E-C3227A1F2972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
