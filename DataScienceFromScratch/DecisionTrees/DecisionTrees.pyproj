@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9b1de37c-3ddf-4ac6-888e-c3227a1f2972</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TheEntropyOfAPartition.py</StartupFile>
+    <StartupFile>CreatingADecisionTree.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CreatingADecisionTree.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Entropy.py" />
     <Compile Include="TheEntropyOfAPartition.py">
       <SubType>Code</SubType>
