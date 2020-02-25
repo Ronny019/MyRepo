@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>eb26f6b0-2131-43fd-bb96-6e15d6d05f4f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Perceptrons.py</StartupFile>
+    <StartupFile>FeedForwardNeuralNetworks.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FeedForwardNeuralNetworks.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Perceptrons.py" />
   </ItemGroup>
   <ItemGroup>
