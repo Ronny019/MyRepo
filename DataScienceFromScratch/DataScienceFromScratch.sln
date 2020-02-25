@@ -35,6 +35,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LogisticRegression", "Logis
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DecisionTrees", "DecisionTrees\DecisionTrees.pyproj", "{9B1DE37C-3DDF-4AC6-888E-C3227A1F2972}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NeuralNetworks", "NeuralNetworks\NeuralNetworks.pyproj", "{EB26F6B0-2131-43FD-BB96-6E15D6D05F4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,8 @@ Global
 		{BC3F73F7-ACFC-438A-9B8F-77297656260F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B1DE37C-3DDF-4AC6-888E-C3227A1F2972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B1DE37C-3DDF-4AC6-888E-C3227A1F2972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB26F6B0-2131-43FD-BB96-6E15D6D05F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB26F6B0-2131-43FD-BB96-6E15D6D05F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
