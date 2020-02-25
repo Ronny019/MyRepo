@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9b1de37c-3ddf-4ac6-888e-c3227a1f2972</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PuttingItAllTogether.py</StartupFile>
+    <StartupFile>RandomForest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
     </Compile>
     <Compile Include="Entropy.py" />
     <Compile Include="PuttingItAllTogether.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RandomForest.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TheEntropyOfAPartition.py">
