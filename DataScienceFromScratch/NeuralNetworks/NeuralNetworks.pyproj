@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>eb26f6b0-2131-43fd-bb96-6e15d6d05f4f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FeedForwardNeuralNetworks.py</StartupFile>
+    <StartupFile>Backpropagation.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Backpropagation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FeedForwardNeuralNetworks.py">
       <SubType>Code</SubType>
     </Compile>
