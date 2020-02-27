@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>eb26f6b0-2131-43fd-bb96-6e15d6d05f4f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Backpropagation.py</StartupFile>
+    <StartupFile>DefeatingACaptcha.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Backpropagation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DefeatingACaptcha.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FeedForwardNeuralNetworks.py">
