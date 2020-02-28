@@ -146,3 +146,23 @@ for i in range(5): # row
             ax.add_patch(patch(j, i, '\\', "black"))
 
 plt.show()
+
+
+left_column_only = [1, 0, 0, 0, 0] * 5
+print (feed.feed_forward(network, left_column_only)[0][0]) # 1.0
+center_middle_row = [0, 0, 0, 0, 0] * 2 + [0, 1, 1, 1, 0] + [0, 0, 0, 0, 0] * 2
+print (feed.feed_forward(network, center_middle_row)[0][0]) # 0.95
+right_column_only = [0, 0, 0, 0, 1] * 5
+print (feed.feed_forward(network, right_column_only)[0][0]) # 0.0
+
+
+my_three = [0,1,1,1,0, # .@@@.
+            0,0,0,1,1, # ...@@
+            0,0,1,1,0, # ..@@.
+            0,0,0,1,1, # ...@@
+            0,1,1,1,0] # .@@@.
+hidden, output = feed.feed_forward(network, my_three)
+
+print(hidden)
+
+print(output)
