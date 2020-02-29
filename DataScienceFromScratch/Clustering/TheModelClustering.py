@@ -27,4 +27,4 @@ class KMeans:
                 i_points = [p for p, a in zip(inputs, assignments) if a == i]
                 # make sure i_points is not empty so don't divide by 0
                 if i_points:
-                    self.means[i] = vector_mean(i_points)
+                    self.means[i] = vec.vector_mean(i_points)
