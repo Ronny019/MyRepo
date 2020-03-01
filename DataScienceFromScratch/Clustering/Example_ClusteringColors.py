@@ -4,7 +4,7 @@ import matplotlib.image as mpimg
 import TheModelClustering as  mod
 from matplotlib import pyplot as plt
 
-path_to_png_file = r"C:\test_images\img3.png" # wherever your image is
+path_to_png_file = r"C:\test_images\img8.png" # wherever your image is
 img = mpimg.imread(path_to_png_file)
 
 
