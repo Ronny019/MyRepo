@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b63dd7b1-60c1-4793-a31c-a79cf1d1573a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Example_Meetups.py</StartupFile>
+    <StartupFile>ChoosingK.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ChoosingK.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Example_Meetups.py">
       <SubType>Code</SubType>
     </Compile>
