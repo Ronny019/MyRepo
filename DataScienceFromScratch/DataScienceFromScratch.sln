@@ -39,6 +39,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NeuralNetworks", "NeuralNet
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Clustering", "Clustering\Clustering.pyproj", "{B63DD7B1-60C1-4793-A31C-A79CF1D1573A}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaturalLanguageProcessing", "NaturalLanguageProcessing\NaturalLanguageProcessing.pyproj", "{BC1C5BA5-E0AE-49E2-984B-15826C36B960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,8 @@ Global
 		{EB26F6B0-2131-43FD-BB96-6E15D6D05F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B63DD7B1-60C1-4793-A31C-A79CF1D1573A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B63DD7B1-60C1-4793-A31C-A79CF1D1573A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1C5BA5-E0AE-49E2-984B-15826C36B960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1C5BA5-E0AE-49E2-984B-15826C36B960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
