@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bc1c5ba5-e0ae-49e2-984b-15826c36b960</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Grammars.py</StartupFile>
+    <StartupFile>AnAside__GibbsSampling.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AnAside__GibbsSampling.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Grammars.py">
       <SubType>Code</SubType>
     </Compile>
