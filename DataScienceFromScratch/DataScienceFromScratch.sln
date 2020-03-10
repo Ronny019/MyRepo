@@ -41,6 +41,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Clustering", "Clustering\Cl
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaturalLanguageProcessing", "NaturalLanguageProcessing\NaturalLanguageProcessing.pyproj", "{BC1C5BA5-E0AE-49E2-984B-15826C36B960}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NetworkAnalysis", "NetworkAnalysis\NetworkAnalysis.pyproj", "{AB21CCEA-E985-4D9F-B161-218ABAD5854B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,8 @@ Global
 		{B63DD7B1-60C1-4793-A31C-A79CF1D1573A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC1C5BA5-E0AE-49E2-984B-15826C36B960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC1C5BA5-E0AE-49E2-984B-15826C36B960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB21CCEA-E985-4D9F-B161-218ABAD5854B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB21CCEA-E985-4D9F-B161-218ABAD5854B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
