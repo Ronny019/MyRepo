@@ -1,5 +1,8 @@
 import Matrices as mat
 import Vectors as vec
+import BetweennessCentrality as bet
+import random
+from functools import partial
 
 def matrix_product_entry(A, B, i, j):
     return vec.dot(mat.get_row(A, i), mat.get_column(B, j))
@@ -34,8 +37,21 @@ def find_eigenvector(A, tolerance=0.00001):
     guess = [random.random() for __ in A]
     while True:
         result = matrix_operate(A, guess)
-        length = magnitude(result)
-        next_guess = scalar_multiply(1/length, result)
-        if distance(guess, next_guess) < tolerance:
+        length = vec.magnitude(result)
+        next_guess = vec.scalar_multiply(1/length, result)
+        if vec.distance(guess, next_guess) < tolerance:
             return next_guess, length # eigenvector, eigenvalue
         guess = next_guess
+
+
+def entry_fn(i, j):
+    return 1 if (i, j) in bet.friendships or (j, i) in bet.friendships else 0
+
+n = len(bet.users)
+adjacency_matrix = mat.make_matrix(n, n, entry_fn)
+
+eigenvector_centralities, _ = find_eigenvector(adjacency_matrix)
+
+
+print("----------------------------------------------------------")
+print(eigenvector_centralities)

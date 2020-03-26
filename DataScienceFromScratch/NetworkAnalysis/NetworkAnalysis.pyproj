@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ab21ccea-e985-4d9f-b161-218abad5854b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BetweennessCentrality.py</StartupFile>
+    <StartupFile>EigenvectorCentrality.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,13 @@
   <ItemGroup>
     <Compile Include="BetweennessCentrality.py" />
     <Compile Include="EigenvectorCentrality.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LinearAlgebra\LinearAlgebra.pyproj">
+      <Name>LinearAlgebra</Name>
+      <Project>{049ab6f0-0aed-4178-bc2b-0451ca9b8add}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
