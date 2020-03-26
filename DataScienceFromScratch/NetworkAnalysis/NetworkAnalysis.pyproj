@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ab21ccea-e985-4d9f-b161-218abad5854b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EigenvectorCentrality.py</StartupFile>
+    <StartupFile>DirectedGraphsAndPageRank.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BetweennessCentrality.py" />
+    <Compile Include="DirectedGraphsAndPageRank.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="EigenvectorCentrality.py" />
   </ItemGroup>
   <ItemGroup>
