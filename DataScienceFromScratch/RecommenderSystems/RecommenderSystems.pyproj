@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>242ee525-1b39-4da3-b624-fc7c6c5dab6d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RecommenderSystems.py</StartupFile>
+    <StartupFile>RecommendingWhatsPopular.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="RecommenderSystems.py" />
+    <Compile Include="RecommendingWhatsPopular.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
