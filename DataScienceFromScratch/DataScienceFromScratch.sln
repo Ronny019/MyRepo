@@ -43,6 +43,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaturalLanguageProcessing",
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NetworkAnalysis", "NetworkAnalysis\NetworkAnalysis.pyproj", "{AB21CCEA-E985-4D9F-B161-218ABAD5854B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RecommenderSystems", "RecommenderSystems\RecommenderSystems.pyproj", "{242EE525-1B39-4DA3-B624-FC7C6C5DAB6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,8 @@ Global
 		{BC1C5BA5-E0AE-49E2-984B-15826C36B960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB21CCEA-E985-4D9F-B161-218ABAD5854B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AB21CCEA-E985-4D9F-B161-218ABAD5854B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242EE525-1B39-4DA3-B624-FC7C6C5DAB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242EE525-1B39-4DA3-B624-FC7C6C5DAB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
