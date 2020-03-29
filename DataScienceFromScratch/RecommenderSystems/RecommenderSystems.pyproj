@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>242ee525-1b39-4da3-b624-fc7c6c5dab6d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>UserBasedCollaborativeFiltering.py</StartupFile>
+    <StartupFile>ItemBasedCollaborativeFiltering.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ItemBasedCollaborativeFiltering.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="RecommenderSystems.py" />
     <Compile Include="RecommendingWhatsPopular.py">
       <SubType>Code</SubType>

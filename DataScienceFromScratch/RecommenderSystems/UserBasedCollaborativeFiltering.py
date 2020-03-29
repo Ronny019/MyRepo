@@ -11,6 +11,7 @@ unique_interests = sorted(list({ interest
                                 for user_interests in rec.users_interests
                                 for interest in user_interests }))
 
+print("Unique Interests")
 print(unique_interests)
 
 
