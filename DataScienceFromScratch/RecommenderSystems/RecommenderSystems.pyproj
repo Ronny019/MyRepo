@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>242ee525-1b39-4da3-b624-fc7c6c5dab6d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RecommendingWhatsPopular.py</StartupFile>
+    <StartupFile>UserBasedCollaborativeFiltering.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,16 @@
     <Compile Include="RecommendingWhatsPopular.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="UserBasedCollaborativeFiltering.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LinearAlgebra\LinearAlgebra.pyproj">
+      <Name>LinearAlgebra</Name>
+      <Project>{049ab6f0-0aed-4178-bc2b-0451ca9b8add}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
