@@ -1,4 +1,4 @@
-
+from collections import defaultdict
 class Table:
     def __init__(self, columns):
         self.columns = columns
@@ -52,3 +52,19 @@ class Table:
         limit_table = Table(self.columns)
         limit_table.rows = self.rows[:num_rows]
         return limit_table
+
+    def group_by(self, group_by_columns, aggregates, having=None):
+        grouped_rows = defaultdict(list)
+        # populate groups
+        for row in self.rows:
+            key = tuple(row[column] for column in group_by_columns)
+            grouped_rows[key].append(row)
+        # result table consists of group_by columns and aggregates
+        result_table = Table(group_by_columns + list(aggregates.keys()))
+        for key, rows in grouped_rows.items():
+            if having is None or having(rows):
+                new_row = list(key)
+                for aggregate_name, aggregate_fn in aggregates.items():
+                    new_row.append(aggregate_fn(rows))
+                result_table.insert(new_row)
+        return result_table

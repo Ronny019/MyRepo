@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>66a88430-9f05-4b92-adda-c8094680d72d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Select.py</StartupFile>
+    <StartupFile>GroupBy.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Delete.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GroupBy.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Select.py">
