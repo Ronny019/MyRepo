@@ -74,3 +74,28 @@ class Table:
         new_table = self.select() # make a copy
         new_table.rows.sort(key=order)
         return new_table
+
+    def join(self, other_table, left_join=False):
+        join_on_columns = [c for c in self.columns # columns in
+                            if c in other_table.columns] # both tables
+        additional_columns = [c for c in other_table.columns # columns only
+                                if c not in join_on_columns] # in right table
+
+        # all columns from left table + additional_columns from right table
+        join_table = Table(self.columns + additional_columns)
+
+        for row in self.rows:
+            def is_join(other_row):
+                return all(other_row[c] == row[c] for c in join_on_columns)
+
+            other_rows = other_table.where(is_join).rows
+            # each other row that matches this one produces a result row
+            for other_row in other_rows:
+                join_table.insert([row[c] for c in self.columns] +
+                                [other_row[c] for c in additional_columns])
+
+            # if no rows match and it's a left join, output with Nones
+            if left_join and not other_rows:
+                join_table.insert([row[c] for c in self.columns] +
+                                [None for c in additional_columns])
+        return join_table
