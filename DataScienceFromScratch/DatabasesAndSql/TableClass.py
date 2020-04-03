@@ -68,3 +68,9 @@ class Table:
                     new_row.append(aggregate_fn(rows))
                 result_table.insert(new_row)
         return result_table
+
+
+    def order_by(self, order):
+        new_table = self.select() # make a copy
+        new_table.rows.sort(key=order)
+        return new_table
