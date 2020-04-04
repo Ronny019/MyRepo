@@ -47,6 +47,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RecommenderSystems", "Recom
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DatabasesAndSql", "DatabasesAndSql\DatabasesAndSql.pyproj", "{66A88430-9F05-4B92-ADDA-C8094680D72D}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MapReduce", "MapReduce\MapReduce.pyproj", "{AD919B1E-97DE-48FC-AC64-65B5961B95F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,8 @@ Global
 		{242EE525-1B39-4DA3-B624-FC7C6C5DAB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66A88430-9F05-4B92-ADDA-C8094680D72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66A88430-9F05-4B92-ADDA-C8094680D72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD919B1E-97DE-48FC-AC64-65B5961B95F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD919B1E-97DE-48FC-AC64-65B5961B95F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
