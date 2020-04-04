@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>66a88430-9f05-4b92-adda-c8094680d72d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Join.py</StartupFile>
+    <StartupFile>QueryOptimisation.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -36,7 +36,13 @@
     <Compile Include="OrderBy.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="QueryOptimisation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Select.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Subqueries.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TableClass.py" />
