@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ad919b1e-97de-48fc-ac64-65b5961b95f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ExampleWordCount.py</StartupFile>
+    <StartupFile>MapReduceMoreGenerally.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ExampleWordCount.py" />
+    <Compile Include="MapReduceMoreGenerally.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NaiveBayes\NaiveBayes.pyproj">
