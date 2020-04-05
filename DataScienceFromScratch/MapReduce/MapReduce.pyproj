@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ad919b1e-97de-48fc-ac64-65b5961b95f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MapReduceMoreGenerally.py</StartupFile>
+    <StartupFile>ExampleMatrixMultiplication.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ExampleAnalyzingStatusUpdates.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExampleMatrixMultiplication.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ExampleWordCount.py" />
     <Compile Include="MapReduceMoreGenerally.py">
       <SubType>Code</SubType>
