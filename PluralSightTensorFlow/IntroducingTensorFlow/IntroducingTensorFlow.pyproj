@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ea6a9a41-c1a6-485a-9007-433eb8d819a7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>House_Price_Prediction.py</StartupFile>
+    <StartupFile>House_Price_Prediction_Anim.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="House_Price_Prediction.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="House_Price_Prediction_Anim.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="installation_test.py" />
