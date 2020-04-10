@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1735f87f-d52c-4d25-abbd-99bd13c99228</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SimpleMNIST.py</StartupFile>
+    <StartupFile>DeepMNIST.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DeepMNIST.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SimpleMNIST.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
