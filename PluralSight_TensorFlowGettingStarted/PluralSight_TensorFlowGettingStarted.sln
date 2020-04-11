@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IntroducingTensorFlow", "In
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CreatingNeuralNetworksInTensorFlow", "CreatingNeuralNetworksInTensorFlow\CreatingNeuralNetworksInTensorFlow.pyproj", "{1735F87F-D52C-4D25-ABBD-99BD13C99228}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DebuggingAndMonitoring", "DebuggingAndMonitoring\DebuggingAndMonitoring.pyproj", "{F75F1992-92F3-4161-85DD-4B081838DA96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{EA6A9A41-C1A6-485A-9007-433EB8D819A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1735F87F-D52C-4D25-ABBD-99BD13C99228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1735F87F-D52C-4D25-ABBD-99BD13C99228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75F1992-92F3-4161-85DD-4B081838DA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75F1992-92F3-4161-85DD-4B081838DA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
