@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DebuggingAndMonitoring", "D
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TransferLearningWithTensorFlow", "TransferLearningWithTensorFlow\TransferLearningWithTensorFlow.pyproj", "{5B656B65-D724-4406-9FCD-019EB212F839}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ExtendingTensorFlowWithAdd_Ons", "ExtendingTensorFlowWithAdd_Ons\ExtendingTensorFlowWithAdd_Ons.pyproj", "{592B8569-BFDC-45D4-B73E-D94C2379B350}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,8 @@ Global
 		{F75F1992-92F3-4161-85DD-4B081838DA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B656B65-D724-4406-9FCD-019EB212F839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5B656B65-D724-4406-9FCD-019EB212F839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592B8569-BFDC-45D4-B73E-D94C2379B350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592B8569-BFDC-45D4-B73E-D94C2379B350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
