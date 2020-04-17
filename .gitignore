@@ -5,3 +5,7 @@
 /.vs/MyRepo/v15/Browse.VC.opendb
 /PluralSight_TensorFlowGettingStarted/TransferLearningWithTensorFlow
 /PluralSight_TensorFlowGettingStarted/DebuggingAndMonitoring/tb_logs
+/PluralSight_TensorFlowGettingStarted/ExtendingTensorFlowWithAdd_Ons/MNIST_data/train-labels-idx1-ubyte.gz
+/PluralSight_TensorFlowGettingStarted/ExtendingTensorFlowWithAdd_Ons/MNIST_data/train-images-idx3-ubyte.gz
+/PluralSight_TensorFlowGettingStarted/ExtendingTensorFlowWithAdd_Ons/MNIST_data/t10k-labels-idx1-ubyte.gz
+/PluralSight_TensorFlowGettingStarted/ExtendingTensorFlowWithAdd_Ons/MNIST_data/t10k-images-idx3-ubyte.gz
