@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>592b8569-bfdc-45d4-b73e-d94c2379b350</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TFLearn-Regression.py</StartupFile>
+    <StartupFile>TFLearn-DeepMNIST.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="Keras-DeepMNIST.py" />
     <Compile Include="Keras-Regression.py" />
+    <Compile Include="TFLearn-DeepMNIST.py" />
     <Compile Include="TFLearn-Regression.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
