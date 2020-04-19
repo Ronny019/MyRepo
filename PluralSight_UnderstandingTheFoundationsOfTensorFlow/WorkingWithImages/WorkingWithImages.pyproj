@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>31a2e6c6-8f2d-4984-ae9c-86d4388b915e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>m4_image_transpose.py</StartupFile>
+    <StartupFile>m4_image_transformations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="m4_image_resize_queue.py" />
+    <Compile Include="m4_image_transformations.py" />
     <Compile Include="m4_image_transpose.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
