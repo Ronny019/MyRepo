@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IntroducingComputationGraphs", "IntroducingComputationGraphs\IntroducingComputationGraphs.pyproj", "{C163CEB9-E099-4503-93EA-3EEA8DE2365A}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DiggingDeeperIntoFundamentals", "DiggingDeeperIntoFundamentals\DiggingDeeperIntoFundamentals.pyproj", "{1688C20B-8A08-45D8-9E12-6CB0B73C73F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C163CEB9-E099-4503-93EA-3EEA8DE2365A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C163CEB9-E099-4503-93EA-3EEA8DE2365A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1688C20B-8A08-45D8-9E12-6CB0B73C73F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1688C20B-8A08-45D8-9E12-6CB0B73C73F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
