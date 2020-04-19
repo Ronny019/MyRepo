@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1688c20b-8a08-45d8-9e12-6cb0b73c73f7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>m3_simplemath_with_variables.py</StartupFile>
+    <StartupFile>m3_graphs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="m3_graphs.py" />
     <Compile Include="m3_simplemath_fetches_and_feeddictionary.py" />
     <Compile Include="m3_simplemath_with_placeholders.py" />
     <Compile Include="m3_simplemath_with_variables.py" />
