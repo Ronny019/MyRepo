@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c163ceb9-e099-4503-93ea-3eea8de2365a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>m2_simplemath.py</StartupFile>
+    <StartupFile>m2_simplemath_with_tensors.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="m2_simplemath.py" />
+    <Compile Include="m2_simplemath_with_tensors.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
