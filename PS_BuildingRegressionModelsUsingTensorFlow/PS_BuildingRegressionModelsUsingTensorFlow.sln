@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BuildingLinearRegression Models_TF", "BuildingLinearRegression Models_TF\BuildingLinearRegression Models_TF.pyproj", "{F9BDAEAE-BD42-42F8-A3A9-28E4DAF2D7BD}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BuildingLogisticRegressionModels_TF", "BuildingLogisticRegressionModels_TF\BuildingLogisticRegressionModels_TF.pyproj", "{826F1B74-A78F-4DE8-88FD-2CA5BBB0FA52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F9BDAEAE-BD42-42F8-A3A9-28E4DAF2D7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9BDAEAE-BD42-42F8-A3A9-28E4DAF2D7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826F1B74-A78F-4DE8-88FD-2CA5BBB0FA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826F1B74-A78F-4DE8-88FD-2CA5BBB0FA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
