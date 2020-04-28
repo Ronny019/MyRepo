@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d9dc99d7-6a4b-40c8-928c-9647d6990f58</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>m4-LinearRegressionWithEstimators.py</StartupFile>
+    <StartupFile>m4-MultipleRegressionWithEstimators.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="m4-LinearRegressionWithEstimators.py" />
+    <Compile Include="m4-MultipleRegressionWithEstimators.py" />
     <Compile Include="returns_data.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
