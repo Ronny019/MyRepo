@@ -37,28 +37,3 @@ fit = estimator.fit(input_fn=input_fn, steps=100000)
 
 for variable_name in fit.get_variable_names():
    print (variable_name , " ---> " , fit.get_variable_value(variable_name))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
