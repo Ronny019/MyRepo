@@ -9,8 +9,8 @@ googModel = linear_model.LinearRegression()
 googModel.fit(xData.reshape(-1,1), yData.reshape(-1,1))
 
 # Find the coefficient and intercept of this linear model
-print googModel.coef_
-print googModel.intercept_
+print (googModel.coef_)
+print (googModel.intercept_)
 
 ################################################################################
 #
@@ -48,7 +48,7 @@ input_fn = tf.contrib.learn.io.numpy_input_fn({"x": xData}, yData, batch_size=le
 fit = estimator.fit(input_fn=input_fn, steps=10000)
 
 for variable_name in fit.get_variable_names():
-    print variable_name , " ---> " , fit.get_variable_value(variable_name)
+    print (variable_name , " ---> " , fit.get_variable_value(variable_name))
 
 # evaluate our model
 print(estimator.evaluate(input_fn=input_fn, steps=10))
