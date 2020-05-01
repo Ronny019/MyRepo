@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DataPreprocessing", "DataPr
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SimpleLinearRegression", "SimpleLinearRegression\SimpleLinearRegression.pyproj", "{88D47B50-D2AD-4ED8-B729-1A9F6A3EAD8C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Regression", "Regression", "{11EB7C3F-FEF9-4777-991A-5C1999350CBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88D47B50-D2AD-4ED8-B729-1A9F6A3EAD8C} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
