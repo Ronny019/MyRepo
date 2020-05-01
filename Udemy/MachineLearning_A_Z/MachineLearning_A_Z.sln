@@ -11,6 +11,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SimpleLinearRegression", "R
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MultipleLinearRegression", "Regression\MultipleLinearRegression\MultipleLinearRegression.pyproj", "{82A68A21-A6B5-4F28-A7DA-C16414EFAEF4}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PolynomialRegression", "Regression\PolynomialRegression\PolynomialRegression.pyproj", "{EB566E70-D262-472E-8A39-FF54FC60A345}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SupportVectorRegression", "Regression\SupportVectorRegression\SupportVectorRegression.pyproj", "{C39BB913-A55C-4AD7-AF78-CDC76A10F7C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{88D47B50-D2AD-4ED8-B729-1A9F6A3EAD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82A68A21-A6B5-4F28-A7DA-C16414EFAEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{82A68A21-A6B5-4F28-A7DA-C16414EFAEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB566E70-D262-472E-8A39-FF54FC60A345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB566E70-D262-472E-8A39-FF54FC60A345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39BB913-A55C-4AD7-AF78-CDC76A10F7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39BB913-A55C-4AD7-AF78-CDC76A10F7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{88D47B50-D2AD-4ED8-B729-1A9F6A3EAD8C} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
 		{82A68A21-A6B5-4F28-A7DA-C16414EFAEF4} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
+		{EB566E70-D262-472E-8A39-FF54FC60A345} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
+		{C39BB913-A55C-4AD7-AF78-CDC76A10F7C9} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
