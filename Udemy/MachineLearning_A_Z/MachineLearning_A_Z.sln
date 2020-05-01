@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DataPreprocessing", "DataPreprocessing\DataPreprocessing.pyproj", "{3A2D7F42-ADA4-4657-B8ED-699DB85B1B5F}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SimpleLinearRegression", "SimpleLinearRegression\SimpleLinearRegression.pyproj", "{88D47B50-D2AD-4ED8-B729-1A9F6A3EAD8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3A2D7F42-ADA4-4657-B8ED-699DB85B1B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A2D7F42-ADA4-4657-B8ED-699DB85B1B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D47B50-D2AD-4ED8-B729-1A9F6A3EAD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D47B50-D2AD-4ED8-B729-1A9F6A3EAD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
