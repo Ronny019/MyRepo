@@ -15,6 +15,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PolynomialRegression", "Reg
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SupportVectorRegression", "Regression\SupportVectorRegression\SupportVectorRegression.pyproj", "{C39BB913-A55C-4AD7-AF78-CDC76A10F7C9}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DecisionTreeRegression", "Regression\DecisionTreeRegression\DecisionTreeRegression.pyproj", "{4B9E9ED7-6F0E-4BC9-911A-E6B6FE04CA72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,8 @@ Global
 		{EB566E70-D262-472E-8A39-FF54FC60A345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C39BB913-A55C-4AD7-AF78-CDC76A10F7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C39BB913-A55C-4AD7-AF78-CDC76A10F7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9E9ED7-6F0E-4BC9-911A-E6B6FE04CA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9E9ED7-6F0E-4BC9-911A-E6B6FE04CA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +44,7 @@ Global
 		{82A68A21-A6B5-4F28-A7DA-C16414EFAEF4} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
 		{EB566E70-D262-472E-8A39-FF54FC60A345} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
 		{C39BB913-A55C-4AD7-AF78-CDC76A10F7C9} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
+		{4B9E9ED7-6F0E-4BC9-911A-E6B6FE04CA72} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
