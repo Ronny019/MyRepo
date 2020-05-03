@@ -21,6 +21,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RandomForestRegression", "R
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegressionModelSelection", "Regression\RegressionModelSelection\RegressionModelSelection.pyproj", "{DB8002FD-61DC-4F4F-A415-1C5168CACA63}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classification", "Classification", "{FCADE258-B0AB-46F5-9513-7B0448A7A35A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LogisticRegression", "Classification\LogisticRegression\LogisticRegression.pyproj", "{62646145-5708-44A7-9F18-0B7C7F056E8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,8 @@ Global
 		{D69DFC0B-2D9E-435E-B18D-873F9B00C0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB8002FD-61DC-4F4F-A415-1C5168CACA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB8002FD-61DC-4F4F-A415-1C5168CACA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62646145-5708-44A7-9F18-0B7C7F056E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62646145-5708-44A7-9F18-0B7C7F056E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{4B9E9ED7-6F0E-4BC9-911A-E6B6FE04CA72} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
 		{D69DFC0B-2D9E-435E-B18D-873F9B00C0E1} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
 		{DB8002FD-61DC-4F4F-A415-1C5168CACA63} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
+		{62646145-5708-44A7-9F18-0B7C7F056E8C} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
