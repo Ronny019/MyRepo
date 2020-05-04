@@ -27,6 +27,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LogisticRegression", "Class
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "K_NearestNeighbours", "Classification\K_NearestNeighbours\K_NearestNeighbours.pyproj", "{6DE90FA8-69EA-45DB-B7A0-162964E7DFB7}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SupportVectorMachine", "Classification\SupportVectorMachine\SupportVectorMachine.pyproj", "{C880AFEA-220C-4A08-B0D2-EFAB4CFA6F36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,8 @@ Global
 		{62646145-5708-44A7-9F18-0B7C7F056E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DE90FA8-69EA-45DB-B7A0-162964E7DFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6DE90FA8-69EA-45DB-B7A0-162964E7DFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C880AFEA-220C-4A08-B0D2-EFAB4CFA6F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C880AFEA-220C-4A08-B0D2-EFAB4CFA6F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +71,7 @@ Global
 		{DB8002FD-61DC-4F4F-A415-1C5168CACA63} = {11EB7C3F-FEF9-4777-991A-5C1999350CBA}
 		{62646145-5708-44A7-9F18-0B7C7F056E8C} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
 		{6DE90FA8-69EA-45DB-B7A0-162964E7DFB7} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
+		{C880AFEA-220C-4A08-B0D2-EFAB4CFA6F36} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
