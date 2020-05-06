@@ -31,6 +31,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SupportVectorMachine", "Cla
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Kernel_SVM", "Classification\Kernel_SVM\Kernel_SVM.pyproj", "{F23F4230-0C52-491B-8105-1B158B2D5756}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaiveBayes", "Classification\NaiveBayes\NaiveBayes.pyproj", "{E5EA273B-8793-43B3-B81D-9A2E9D986234}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,8 @@ Global
 		{C880AFEA-220C-4A08-B0D2-EFAB4CFA6F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F23F4230-0C52-491B-8105-1B158B2D5756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F23F4230-0C52-491B-8105-1B158B2D5756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5EA273B-8793-43B3-B81D-9A2E9D986234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5EA273B-8793-43B3-B81D-9A2E9D986234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +81,7 @@ Global
 		{6DE90FA8-69EA-45DB-B7A0-162964E7DFB7} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
 		{C880AFEA-220C-4A08-B0D2-EFAB4CFA6F36} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
 		{F23F4230-0C52-491B-8105-1B158B2D5756} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
+		{E5EA273B-8793-43B3-B81D-9A2E9D986234} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
