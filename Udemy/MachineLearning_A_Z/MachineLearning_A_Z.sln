@@ -41,6 +41,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clustering", "Clustering", 
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KMeansClustering", "Clustering\KMeansClustering\KMeansClustering.pyproj", "{F8DC9C46-12C3-4EB7-8E36-5D05EBF14693}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HierarchicalClustering", "Clustering\HierarchicalClustering\HierarchicalClustering.pyproj", "{99B8DA6C-62B6-452F-B157-F58AAF5365DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,8 @@ Global
 		{85230349-31F6-4347-A6AC-27A54339A785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8DC9C46-12C3-4EB7-8E36-5D05EBF14693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8DC9C46-12C3-4EB7-8E36-5D05EBF14693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B8DA6C-62B6-452F-B157-F58AAF5365DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B8DA6C-62B6-452F-B157-F58AAF5365DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +103,7 @@ Global
 		{BEECDA13-E533-4940-9583-F5B2F6E54E96} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
 		{85230349-31F6-4347-A6AC-27A54339A785} = {FCADE258-B0AB-46F5-9513-7B0448A7A35A}
 		{F8DC9C46-12C3-4EB7-8E36-5D05EBF14693} = {806C8190-87C9-4AEF-BC8C-DE5AC2F98147}
+		{99B8DA6C-62B6-452F-B157-F58AAF5365DC} = {806C8190-87C9-4AEF-BC8C-DE5AC2F98147}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
