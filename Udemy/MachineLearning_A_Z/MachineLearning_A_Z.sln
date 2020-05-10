@@ -53,6 +53,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UpperConfidenceBound", "Rei
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ThompsonSampling", "ReinforcementLearning\ThompsonSampling\ThompsonSampling.pyproj", "{98B79D06-F7BC-4C2B-8A0B-2BF81064A8BA}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaturalLanguageProcessing", "NaturalLanguageProcessing\NaturalLanguageProcessing.pyproj", "{32A5D0B2-418D-45EC-8B3B-520EE117A98C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,8 @@ Global
 		{F8C0E2EF-6471-468F-BFE7-CE610EB2581A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98B79D06-F7BC-4C2B-8A0B-2BF81064A8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98B79D06-F7BC-4C2B-8A0B-2BF81064A8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A5D0B2-418D-45EC-8B3B-520EE117A98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A5D0B2-418D-45EC-8B3B-520EE117A98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
