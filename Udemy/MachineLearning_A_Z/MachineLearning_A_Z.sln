@@ -55,6 +55,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ThompsonSampling", "Reinfor
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NaturalLanguageProcessing", "NaturalLanguageProcessing\NaturalLanguageProcessing.pyproj", "{32A5D0B2-418D-45EC-8B3B-520EE117A98C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeepLearning", "DeepLearning", "{E0882097-4D18-44B1-92CF-4C4233FCF410}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ArtificialNeuralNetworks", "DeepLearning\ArtificialNeuralNetworks\ArtificialNeuralNetworks.pyproj", "{2F7C861E-ADE6-4595-BFE0-199A997013FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +107,8 @@ Global
 		{98B79D06-F7BC-4C2B-8A0B-2BF81064A8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32A5D0B2-418D-45EC-8B3B-520EE117A98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32A5D0B2-418D-45EC-8B3B-520EE117A98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7C861E-ADE6-4595-BFE0-199A997013FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7C861E-ADE6-4595-BFE0-199A997013FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +133,7 @@ Global
 		{DC16B5A8-7F8C-4858-B5F3-FDDA33F3BA2E} = {AC2B7087-BE21-4223-A0F9-A48A7727F263}
 		{F8C0E2EF-6471-468F-BFE7-CE610EB2581A} = {0AA9D742-E267-4E76-91BB-3E82CF2A0FBA}
 		{98B79D06-F7BC-4C2B-8A0B-2BF81064A8BA} = {0AA9D742-E267-4E76-91BB-3E82CF2A0FBA}
+		{2F7C861E-ADE6-4595-BFE0-199A997013FD} = {E0882097-4D18-44B1-92CF-4C4233FCF410}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
