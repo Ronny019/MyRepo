@@ -61,3 +61,5 @@
 /PS_BuildingRegressionModelsUsingTensorFlow/GeneralizedLinearModels_Estimators/data/NASDAQ.csv
 /PS_BuildingRegressionModelsUsingTensorFlow/GeneralizedLinearModels_Estimators/data/GOOG.csv
 /Udemy/MachineLearning_A_Z/AssociationRuleLearning/Apriori/__pycache__/apyori.cpython-36.pyc
+/Udemy/MachineLearning_A_Z/DeepLearning/ConvolutionalNeuralNetworks/dataset
+*.sqlite-journal
