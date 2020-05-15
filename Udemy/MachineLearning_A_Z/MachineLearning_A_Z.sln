@@ -67,6 +67,12 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PrincipalComponentAnalysis"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Linear Discriminant Analysis", "DimensionalityReduction\Linear Discriminant Analysis\Linear Discriminant Analysis.pyproj", "{8AA215AF-93D1-430F-B43F-E7221390DB64}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Kernel_PCA", "DimensionalityReduction\Kernel_PCA\Kernel_PCA.pyproj", "{14BC1E01-5637-4C22-991D-F4C059A76624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelSelectionAndBoosting", "ModelSelectionAndBoosting", "{E31566DA-6EA4-4C52-8F0A-6E825894001B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ModelSelection", "ModelSelectionAndBoosting\ModelSelection\ModelSelection.pyproj", "{6479D632-FFC1-4859-94E1-333F0AAD9A85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +129,10 @@ Global
 		{549CC8C7-DD36-4266-9C68-802AFE1FBFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AA215AF-93D1-430F-B43F-E7221390DB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8AA215AF-93D1-430F-B43F-E7221390DB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BC1E01-5637-4C22-991D-F4C059A76624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BC1E01-5637-4C22-991D-F4C059A76624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6479D632-FFC1-4859-94E1-333F0AAD9A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6479D632-FFC1-4859-94E1-333F0AAD9A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -151,6 +161,8 @@ Global
 		{2E65EEF0-D477-4E91-9302-449E3C2CA8AC} = {E0882097-4D18-44B1-92CF-4C4233FCF410}
 		{549CC8C7-DD36-4266-9C68-802AFE1FBFDC} = {9210FE7A-2C31-418A-93FA-D79BCB283734}
 		{8AA215AF-93D1-430F-B43F-E7221390DB64} = {9210FE7A-2C31-418A-93FA-D79BCB283734}
+		{14BC1E01-5637-4C22-991D-F4C059A76624} = {9210FE7A-2C31-418A-93FA-D79BCB283734}
+		{6479D632-FFC1-4859-94E1-333F0AAD9A85} = {E31566DA-6EA4-4C52-8F0A-6E825894001B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
