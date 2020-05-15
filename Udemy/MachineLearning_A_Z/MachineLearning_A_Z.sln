@@ -73,6 +73,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelSelectionAndBoosting",
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ModelSelection", "ModelSelectionAndBoosting\ModelSelection\ModelSelection.pyproj", "{6479D632-FFC1-4859-94E1-333F0AAD9A85}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "XGBoost", "ModelSelectionAndBoosting\XGBoost\XGBoost.pyproj", "{037FAE9A-1869-47C2-82A3-F808C4A38455}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,8 @@ Global
 		{14BC1E01-5637-4C22-991D-F4C059A76624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6479D632-FFC1-4859-94E1-333F0AAD9A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6479D632-FFC1-4859-94E1-333F0AAD9A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037FAE9A-1869-47C2-82A3-F808C4A38455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037FAE9A-1869-47C2-82A3-F808C4A38455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -163,6 +167,7 @@ Global
 		{8AA215AF-93D1-430F-B43F-E7221390DB64} = {9210FE7A-2C31-418A-93FA-D79BCB283734}
 		{14BC1E01-5637-4C22-991D-F4C059A76624} = {9210FE7A-2C31-418A-93FA-D79BCB283734}
 		{6479D632-FFC1-4859-94E1-333F0AAD9A85} = {E31566DA-6EA4-4C52-8F0A-6E825894001B}
+		{037FAE9A-1869-47C2-82A3-F808C4A38455} = {E31566DA-6EA4-4C52-8F0A-6E825894001B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF131629-ED38-4E45-ADC2-47FEA94535FB}
