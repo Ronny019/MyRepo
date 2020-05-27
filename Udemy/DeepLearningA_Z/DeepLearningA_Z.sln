@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BuildingAnANN", "BuildingAn
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BuildingCNN", "BuildingCNN\BuildingCNN.pyproj", "{F43252CD-E123-4CEE-9B16-7276210B44A1}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BuildingRNN", "BuildingRNN\BuildingRNN.pyproj", "{E7B149F0-D627-4560-87AB-2230F8B974FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{6817CDF0-07E4-489F-9379-5042C1E13A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F43252CD-E123-4CEE-9B16-7276210B44A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F43252CD-E123-4CEE-9B16-7276210B44A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B149F0-D627-4560-87AB-2230F8B974FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B149F0-D627-4560-87AB-2230F8B974FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
