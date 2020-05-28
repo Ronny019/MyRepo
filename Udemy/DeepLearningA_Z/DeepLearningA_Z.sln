@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BuildingRNN", "BuildingRNN\
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BuildingSOM", "BuildingSOM\BuildingSOM.pyproj", "{B01B8E53-638B-4EB3-8EB1-287DA963256D}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MegaCaseStudy", "MegaCaseStudy\MegaCaseStudy.pyproj", "{E133B196-443D-46B3-AA16-FCFB72D91279}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,8 @@ Global
 		{E7B149F0-D627-4560-87AB-2230F8B974FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B01B8E53-638B-4EB3-8EB1-287DA963256D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B01B8E53-638B-4EB3-8EB1-287DA963256D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E133B196-443D-46B3-AA16-FCFB72D91279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E133B196-443D-46B3-AA16-FCFB72D91279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
