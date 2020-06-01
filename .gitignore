@@ -64,3 +64,5 @@
 /Udemy/MachineLearning_A_Z/DeepLearning/ConvolutionalNeuralNetworks/dataset
 *.sqlite-journal
 /Udemy/DeepLearningA_Z/BuildingCNN/dataset
+/Udemy/DeepLearningA_Z/BuildingBoltzmannMachines/ml-100k
+/Udemy/DeepLearningA_Z/BuildingBoltzmannMachines/ml-1m
