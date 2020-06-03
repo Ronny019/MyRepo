@@ -15,6 +15,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MegaCaseStudy", "MegaCaseSt
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BuildingBoltzmannMachines", "BuildingBoltzmannMachines\BuildingBoltzmannMachines.pyproj", "{DE614960-1366-4942-A374-5BB775769713}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BuildingAutoEncoder", "BuildingAutoEncoder\BuildingAutoEncoder.pyproj", "{F4FAAE00-D664-48C3-8F0A-6AD1FEABD83F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,8 @@ Global
 		{E133B196-443D-46B3-AA16-FCFB72D91279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE614960-1366-4942-A374-5BB775769713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DE614960-1366-4942-A374-5BB775769713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FAAE00-D664-48C3-8F0A-6AD1FEABD83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FAAE00-D664-48C3-8F0A-6AD1FEABD83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
