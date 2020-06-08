@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FaceDetection_OpenCV", "FaceDetection_OpenCV\FaceDetection_OpenCV.pyproj", "{3FF0224C-2231-425E-8F81-8AD6AF646F3C}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ObjectDetection_SSD", "ObjectDetection_SSD\ObjectDetection_SSD.pyproj", "{B3AD02AC-5F54-4B38-A2BC-73B17494D82D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3FF0224C-2231-425E-8F81-8AD6AF646F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3FF0224C-2231-425E-8F81-8AD6AF646F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AD02AC-5F54-4B38-A2BC-73B17494D82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AD02AC-5F54-4B38-A2BC-73B17494D82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
