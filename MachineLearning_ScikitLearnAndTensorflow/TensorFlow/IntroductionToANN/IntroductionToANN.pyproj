@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="MLP_TF_HighLevelAPI.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Perceptrons.py">
       <SubType>Code</SubType>
     </Compile>
