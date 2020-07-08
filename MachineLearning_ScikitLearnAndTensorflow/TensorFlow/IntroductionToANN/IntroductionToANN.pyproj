@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1f35c9a1-911b-4267-8f52-0401fe46d5da</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Setup.py</StartupFile>
+    <StartupFile>DNN_TF_Plain.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DNN_TF_Plain.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MLP_TF_HighLevelAPI.py">
       <SubType>Code</SubType>
     </Compile>
