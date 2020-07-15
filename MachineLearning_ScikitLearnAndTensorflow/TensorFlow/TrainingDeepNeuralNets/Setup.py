@@ -3,6 +3,7 @@ from __future__ import division, print_function, unicode_literals
 # Common imports
 import numpy as np
 import os
+import tensorflow as tf
 
 # to make this notebook's output stable across runs
 def reset_graph(seed=42):

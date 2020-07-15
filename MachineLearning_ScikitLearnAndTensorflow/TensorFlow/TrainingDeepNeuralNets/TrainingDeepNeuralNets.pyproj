@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BatchNormalization.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Setup.py" />
     <Compile Include="Vanishing_ExplodingGradientsProblem.py">
       <SubType>Code</SubType>
