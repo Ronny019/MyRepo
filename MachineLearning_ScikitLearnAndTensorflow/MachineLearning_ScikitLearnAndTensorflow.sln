@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UpAndRunningWithTF", "Tenso
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IntroductionToANN", "TensorFlow\IntroductionToANN\IntroductionToANN.pyproj", "{1F35C9A1-911B-4267-8F52-0401FE46D5DA}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TrainingDeepNeuralNets", "TensorFlow\TrainingDeepNeuralNets\TrainingDeepNeuralNets.pyproj", "{453D965C-7902-470E-8667-0DE2B88913B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,8 @@ Global
 		{30DBECBA-0491-414A-A223-4D9EB527ADD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F35C9A1-911B-4267-8F52-0401FE46D5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1F35C9A1-911B-4267-8F52-0401FE46D5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453D965C-7902-470E-8667-0DE2B88913B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453D965C-7902-470E-8667-0DE2B88913B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{30DBECBA-0491-414A-A223-4D9EB527ADD8} = {055DAA88-FE76-4407-8889-1AB00AF35234}
 		{1F35C9A1-911B-4267-8F52-0401FE46D5DA} = {055DAA88-FE76-4407-8889-1AB00AF35234}
+		{453D965C-7902-470E-8667-0DE2B88913B0} = {055DAA88-FE76-4407-8889-1AB00AF35234}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B807708B-2DE1-4D0E-A98D-69503113E2AF}
